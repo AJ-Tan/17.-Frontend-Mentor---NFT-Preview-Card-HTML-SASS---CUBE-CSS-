@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="[ bg-blue-950 ]">
+    <main class="[ p-md-2 ]">
+      <article class="[ flex-column gap-md-2 ] [ bg-blue-900 ] [ card ]">
+        <div class="[ br-sm ] [ img--hoverable ]">
+          <img src="./images/image-equilibrium.jpg" alt="Equilibrium cube" />
+        </div>
+
+        <div class="[ flex-column gap-md-1 ]">
+          <h1 class="[ fc-white--hoverable fs-title fw-title ]">
+            Equilibrium #3429
+          </h1>
+          <p class="[ fc-blue-500 fw-sm lh-md ]">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <div class="[ flex-row jc-space-between ]">
+            <div class="[ flex-row gap-sm-1 ] [ fc-cyan-400 ]">
+              <img src="./images/icon-ethereum.svg" alt="" />
+              <span>0.041 ETH</span>
+            </div>
+            <div class="[ flex-row gap-sm-1 ] [ fc-blue-500 ]">
+              <img src="./images/icon-clock.svg" alt="" />
+              <span>3 days left</span>
+            </div>
+          </div>
+
+          <div
+            class="[ flex-row ai-center gap-md-1 ] [ bt-color-blue-800 bt-p-md-1 ]"
+          >
+            <img
+              class="[ br-rounded outline-white w-avatar-sm ]"
+              src="./images/image-avatar.png"
+              alt="Jules Wyvern avatar"
+            />
+            <p class="[ fc-blue-500 fw-sm ]">
+              Creation of
+              <span class="[ fc-white--hoverable ]">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Aldomin Joseph R. Tan</a>.
+      </div>
+    </footer>
+  </body>
+</html>
