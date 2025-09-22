@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/AJ-Tan/17.-Frontend-Mentor---NFT-Preview-Card-HTML-SASS---CUBE-CSS-)
+- Live Site URL: [GH Pages](https://aj-tan.github.io/17.-Frontend-Mentor---NFT-Preview-Card-HTML-SASS---CUBE-CSS-/)
 
 ## My process
 
